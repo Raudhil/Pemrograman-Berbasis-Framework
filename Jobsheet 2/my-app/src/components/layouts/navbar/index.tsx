@@ -1,9 +1,13 @@
-const navbar = () => {
-    return (
-        <div className="navbar">
-            <div>navbar Component</div>
-        </div>
-    )
-}
+import styles from './navbar.module.css';
 
-export default navbar;
+const Navbar = () => {
+  return (
+    <div className={styles.navbar}>
+      <div className="big">
+        Navbar
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
